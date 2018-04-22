@@ -1,0 +1,417 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+	<title>大数据下的农业订单信息系统</title>
+	<meta name="generator" content="LibreOffice 5.4.6.2 (Linux)"/>
+	<meta name="author" content="王佳宇"/>
+	<meta name="created" content="2018-04-15T07:51:00"/>
+	<meta name="changed" content="2018-04-22T15:27:37.146798949"/>
+	<meta name="classification" content="项目计划书"/>
+	<meta name="AppVersion" content="16.0000"/>
+	<meta name="Company" content="西安石油大学"/>
+	<meta name="DocSecurity" content="0"/>
+	<meta name="HyperlinksChanged" content="false"/>
+	<meta name="LinksUpToDate" content="false"/>
+	<meta name="ScaleCrop" content="false"/>
+	<meta name="ShareDoc" content="false"/>
+	<style type="text/css">
+		@page { margin: 2cm }
+		@page:first { }
+		p { margin-bottom: 0.25cm; direction: ltr; color: #00000a; line-height: 120%; text-align: left; orphans: 2; widows: 2 }
+		p.western { font-size: 12pt }
+		p.cjk { font-family: "Noto Sans CJK SC Regular"; font-size: 12pt }
+		h1 { margin-top: 0.6cm; margin-bottom: 0.58cm; direction: ltr; color: #00000a; line-height: 241%; text-align: left; page-break-inside: avoid; orphans: 2; widows: 2 }
+		h1.western { font-family: "Liberation Serif", serif; font-size: 22pt }
+		h1.cjk { font-family: "DejaVu Sans" }
+		h1.ctl { font-family: "Mangal"; font-size: 20pt }
+		h2 { margin-top: 0.46cm; margin-bottom: 0.46cm; direction: ltr; color: #00000a; line-height: 173%; text-align: left; page-break-inside: avoid; orphans: 2; widows: 2 }
+		h2.western { font-family: "Cambria", serif; font-size: 16pt }
+		h2.cjk { font-family: "DejaVu Sans"; font-size: 16pt }
+		h2.ctl { font-family: "Mangal"; font-size: 14pt }
+		h1.toc-heading-western { margin-top: 0.42cm; margin-bottom: 0cm; color: #365f91; font-family: "Cambria", serif; font-size: 16pt; font-weight: normal; line-height: 108% }
+		h1.toc-heading-cjk { margin-top: 0.42cm; margin-bottom: 0cm; color: #365f91; font-family: "DejaVu Sans"; font-size: 16pt; font-weight: normal; line-height: 108% }
+		h1.toc-heading-ctl { margin-top: 0.42cm; margin-bottom: 0cm; color: #365f91; font-family: "宋体"; font-size: 16pt; so-language: ar-SA; font-weight: normal; line-height: 108% }
+		a:link { color: #0000ff }
+	</style>
+</head>
+<body lang="zh-CN" text="#00000a" link="#0000ff" dir="ltr">
+<p class="cjk" style="margin-bottom: 0cm; line-height: 100%"><br/>
+
+</p>
+<p class="cjk" style="margin-bottom: 0cm; line-height: 100%"><center>
+	<table dir="ltr" width="80%" cellpadding="8" cellspacing="0">
+		<col width="256*">
+		<tr>
+			<td width="100%" valign="top" style="border-top: none; border-bottom: none; border-left: 1.50pt solid #4f81bd; border-right: none; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0cm">
+				<p><font color="#4f81bd"><font face="DejaVu Sans"><font size="6" style="font-size: 26pt">大数据下的农业订单信息系统</font></font></font></p>
+			</td>
+		</tr>
+		<tr>
+			<td width="100%" valign="top" style="border-top: none; border-bottom: none; border-left: 1.50pt solid #4f81bd; border-right: none; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.25cm; padding-right: 0cm">
+				<p><font color="#4f81bd"><font face="DejaVu Sans"><font size="6" style="font-size: 24pt">项目计划书</font></font></font></p>
+			</td>
+		</tr>
+		<tr>
+			<td width="100%" valign="top" style="border-top: none; border-bottom: none; border-left: 1.50pt solid #4f81bd; border-right: none; padding-top: 0cm; padding-bottom: 0cm; padding-left: 0.2cm; padding-right: 0cm">
+				<p><br/>
+
+				</p>
+			</td>
+		</tr>
+	</table>
+</center>
+<center>
+	<table dir="ltr" width="77%" cellpadding="8" cellspacing="0">
+		<col width="256*">
+		<tr>
+			<td width="100%" valign="top" style="border: none; padding: 0cm">
+				<p style="margin-bottom: 0cm"><font color="#4f81bd"><font face="DejaVu Sans"><font size="4" style="font-size: 15pt">西安石油大学</font></font></font></p>
+				<p style="margin-bottom: 0cm"><font color="#4f81bd"><font face="DejaVu Sans"><font size="4" style="font-size: 15pt">团队名称：</font></font><font face="Calibri, serif"><font size="4" style="font-size: 15pt"><span lang="en-US">Linear</span></font></font></font></p>
+				<p style="margin-bottom: 0cm"><font color="#4f81bd"><font face="DejaVu Sans"><font size="4" style="font-size: 15pt">负责人：
+				王佳宇</font></font></font></p>
+				<p style="margin-bottom: 0cm"><font color="#4f81bd"><font face="DejaVu Sans"><font size="4" style="font-size: 15pt">团队成员：
+				惠宇航、张映宏、陈孟翰、贾皓天</font></font></font></p>
+				<p><font color="#4f81bd"><font face="DejaVu Sans"><font size="4" style="font-size: 15pt">指导老师：
+				赵安科</font></font></font></p>
+			</td>
+		</tr>
+	</table>
+</center><br/>
+
+</p>
+<h1 class="toc-heading-cjk" style="page-break-before: always">目录</h1>
+<div id="内容目录1" dir="ltr">
+	<p style="margin-bottom: 0cm; line-height: 100%"><a href="#_Toc511570773"><font face="宋体">一、</font></a><font face="Liberation Serif, serif"><span lang="en-US"><a href="#_Toc511570773"><font color="#00000a"><font face="Calibri, serif"><font size="2" style="font-size: 10pt">	</font></font></font></a></span></font><a href="#_Toc511570773"><font face="宋体">项目简介</font></a><font face="Liberation Serif, serif"><span lang="en-US"><a href="#_Toc511570773">	2</a></span></font></p>
+	<p style="margin-left: 0.85cm; margin-bottom: 0cm; line-height: 100%">
+	<a href="#_Toc511570774">（一）前言</a><font face="Liberation Serif, serif"><span lang="en-US"><a href="#_Toc511570774">	2</a></span></font></p>
+	<p style="margin-left: 0.85cm; margin-bottom: 0cm; line-height: 100%">
+	<a href="#_Toc511570775">（二）政策</a><font face="Liberation Serif, serif"><span lang="en-US"><a href="#_Toc511570775">	2</a></span></font></p>
+	<p style="margin-left: 0.85cm; margin-bottom: 0cm; line-height: 100%">
+	<a href="#_Toc511570776">（三）整体架构</a><font face="Liberation Serif, serif"><span lang="en-US"><a href="#_Toc511570776">	3</a></span></font></p>
+	<p style="margin-bottom: 0cm; line-height: 100%"><a href="#_Toc511570777"><font face="宋体">二、项目实施背景</font></a><font face="Liberation Serif, serif"><span lang="en-US"><a href="#_Toc511570777">	3</a></span></font></p>
+	<p style="margin-left: 0.85cm; margin-bottom: 0cm; line-height: 100%">
+	<a href="#_Toc511570778">（一）项目的国内现状</a><font face="Liberation Serif, serif"><span lang="en-US"><a href="#_Toc511570778">	3</a></span></font></p>
+	<p style="margin-left: 0.85cm; margin-bottom: 0cm; line-height: 100%">
+	<a href="#_Toc511570779">（二）项目的发展趋势</a><font face="Liberation Serif, serif"><span lang="en-US"><a href="#_Toc511570779">	4</a></span></font></p>
+	<p style="margin-left: 0.85cm; margin-bottom: 0cm; line-height: 100%">
+	<a href="#_Toc511570780">（三）项目运作的可行性</a><font face="Liberation Serif, serif"><span lang="en-US"><a href="#_Toc511570780">	5</a></span></font></p>
+	<p style="margin-bottom: 0cm; line-height: 100%"><a href="#_Toc511570781"><font face="宋体">三、项目研究与实施的基础条件</font></a><font face="Liberation Serif, serif"><span lang="en-US"><a href="#_Toc511570781">	6</a></span></font></p>
+	<p style="margin-left: 0.85cm; margin-bottom: 0cm; line-height: 100%">
+	<a href="#_Toc511570782">（一）、人员条件</a><font face="Liberation Serif, serif"><span lang="en-US"><a href="#_Toc511570782">	6</a></span></font></p>
+	<p style="margin-left: 0.85cm; margin-bottom: 0cm; line-height: 100%">
+	<a href="#_Toc511570783">（二）、资金条件</a><font face="Liberation Serif, serif"><span lang="en-US"><a href="#_Toc511570783">	6</a></span></font></p>
+	<p style="margin-left: 0.85cm; margin-bottom: 0cm; line-height: 100%">
+	<a href="#_Toc511570784">（三）、硬件需求</a><font face="Liberation Serif, serif"><span lang="en-US"><a href="#_Toc511570784">	6</a></span></font></p>
+	<p style="margin-left: 0.85cm; margin-bottom: 0cm; line-height: 100%">
+	<a href="#_Toc511570785">（四）、总结</a><font face="Liberation Serif, serif"><span lang="en-US"><a href="#_Toc511570785">	7</a></span></font></p>
+	<p style="margin-bottom: 0cm; line-height: 100%"><a href="#_Toc511570786"><font face="宋体">四、项目优势（新颖性、先进性、独特性、竞争优势）</font></a><font face="Liberation Serif, serif"><span lang="en-US"><a href="#_Toc511570786">	7</a></span></font></p>
+	<p style="margin-bottom: 0cm; line-height: 100%"><a href="#_Toc511570787"><font face="宋体">五、项目实施方案</font></a><font face="Liberation Serif, serif"><span lang="en-US"><a href="#_Toc511570787">	8</a></span></font></p>
+	<p style="margin-left: 0.85cm; margin-bottom: 0cm; line-height: 100%">
+	<a href="#_Toc511570788">（一）、产品定位</a><font face="Liberation Serif, serif"><span lang="en-US"><a href="#_Toc511570788">	8</a></span></font></p>
+	<p style="margin-left: 0.85cm; margin-bottom: 0cm; line-height: 100%">
+	<a href="#_Toc511570789">（二）、服务对象</a><font face="Liberation Serif, serif"><span lang="en-US"><a href="#_Toc511570789">	8</a></span></font></p>
+	<p style="margin-left: 0.85cm; margin-bottom: 0cm; line-height: 100%">
+	<a href="#_Toc511570790">（三）、服务细则</a><font face="Liberation Serif, serif"><span lang="en-US"><a href="#_Toc511570790">	8</a></span></font></p>
+	<p style="margin-left: 0.85cm; margin-bottom: 0cm; line-height: 100%">
+	<a href="#_Toc511570791">（四）、实现样例</a><font face="Liberation Serif, serif"><span lang="en-US"><a href="#_Toc511570791">	9</a></span></font></p>
+	<p style="margin-left: 0.85cm; margin-bottom: 0cm; line-height: 100%">
+	<a href="#_Toc511570792">（五）、营销提案</a><font face="Liberation Serif, serif"><span lang="en-US"><a href="#_Toc511570792">	10</a></span></font></p>
+	<p class="cjk" style="margin-bottom: 0cm; line-height: 100%"><br/>
+
+	</p>
+</div>
+<p class="cjk" style="margin-bottom: 0cm; line-height: 100%"><br/>
+
+</p>
+<p class="cjk" style="margin-bottom: 0cm; line-height: 100%"><br/>
+
+</p>
+<p class="cjk" style="margin-bottom: 0cm; line-height: 100%"><a name="_GoBack"></a>
+<br/>
+
+</p>
+<p class="cjk" style="margin-bottom: 0cm; line-height: 100%"><br/>
+
+</p>
+<p class="cjk" style="margin-bottom: 0cm; line-height: 100%"><br/>
+
+</p>
+<p class="cjk" style="margin-bottom: 0cm; line-height: 100%"><br/>
+
+</p>
+<p class="cjk" style="margin-bottom: 0cm; line-height: 100%"><br/>
+
+</p>
+<p class="cjk" style="margin-bottom: 0cm; line-height: 100%"><br/>
+
+</p>
+<p class="cjk" style="margin-bottom: 0cm; line-height: 100%"><br/>
+
+</p>
+<p class="cjk" style="margin-bottom: 0cm; line-height: 100%"><br/>
+
+</p>
+<p class="cjk" style="margin-bottom: 0cm; line-height: 100%"><br/>
+
+</p>
+<p class="cjk" style="margin-bottom: 0cm; line-height: 100%"><br/>
+
+</p>
+<p class="cjk" style="margin-bottom: 0cm; line-height: 100%"><br/>
+
+</p>
+<p class="cjk" style="margin-bottom: 0cm; line-height: 100%"><br/>
+
+</p>
+<p class="cjk" style="margin-bottom: 0cm; line-height: 100%"><br/>
+
+</p>
+<p class="cjk" style="margin-bottom: 0cm; line-height: 100%"><br/>
+
+</p>
+<ol>
+	<li/>
+<h1 class="cjk"><a name="_Toc511570773"></a><font face="宋体">项目简介</font></h1>
+</ol>
+<h2 class="cjk"><a name="_Toc511570774"></a>（一）前言</h2>
+<p class="cjk" style="text-indent: 1.06cm; margin-bottom: 0cm; line-height: 100%; orphans: 0; widows: 0">
+<font size="4" style="font-size: 15pt">近些年来，随着互联网技术的飞速发展。大数据这个名词已经渗透到人们生产生活的方方面面。“订单”</font><font face="Liberation Serif, serif"><font size="4" style="font-size: 15pt"><span lang="en-US">+“</span></font></font><font size="4" style="font-size: 15pt">农业”，在互联网的环境中，有了自己的结合体</font><font face="Liberation Serif, serif"><font size="4" style="font-size: 15pt"><span lang="en-US">---</span></font></font><font size="4" style="font-size: 15pt">订单农业，又称合同农业、契约农业，是近年来出现的一种新型农业生产经营模式，农户根据其本身或其所在的乡村组织同农产品的购买者之间所签订的订单，组织安排农产品生产的一种农业产销模式。订单农业很好地适应了市场需要，避免了盲目生产。比起传统的农业订单系统我们实现了：</font></p>
+<p class="cjk" style="text-indent: 1.06cm; margin-bottom: 0cm; line-height: 100%; orphans: 0; widows: 0">
+<font face="Liberation Serif, serif"><font size="4" style="font-size: 15pt"><span lang="en-US">1</span></font></font><font size="4" style="font-size: 15pt">、数据可视化—让商家和农民更了解供应双方的需求；</font></p>
+<p class="cjk" style="text-indent: 1.06cm; margin-bottom: 0cm; line-height: 100%; orphans: 0; widows: 0">
+<font face="Liberation Serif, serif"><font size="4" style="font-size: 15pt"><span lang="en-US">2</span></font></font><font size="4" style="font-size: 15pt">、供应趋势预测—使用机器学习实现农业生产与需求的预测；</font></p>
+<p class="cjk" style="text-indent: 1.06cm; margin-bottom: 0cm; line-height: 100%; orphans: 0; widows: 0">
+<font face="Liberation Serif, serif"><font size="4" style="font-size: 15pt"><span lang="en-US">3</span></font></font><font size="4" style="font-size: 15pt">、提供开放的信息交流平台—为农户，经销公司，农业产业化龙头企业，加工企业提供一个平台，让农户和企业、加工企业建立起了更加紧密的联系</font><font face="Liberation Serif, serif"><font size="4" style="font-size: 15pt"><span lang="en-US">,</span></font></font><font size="4" style="font-size: 15pt">让资本、技术、信息更加有的放矢。</font></p>
+<h2 class="cjk"><a name="_Toc511570775"></a>（二）政策</h2>
+<p class="cjk" style="text-indent: 1.06cm; margin-bottom: 0cm; line-height: 100%; orphans: 0; widows: 0">
+<font face="Liberation Serif, serif"><font size="4" style="font-size: 15pt"><span lang="en-US">2016</span></font></font><font size="4" style="font-size: 15pt">年中央一号文件指出，“大力推进‘互联网</font><font face="Liberation Serif, serif"><font size="4" style="font-size: 15pt"><span lang="en-US">+’</span></font></font><font size="4" style="font-size: 15pt">现代农业，应用物联网、云计算、大数据、移动互联等现代信息技术，推动农业全产业链改造升级。”</font></p>
+<p class="cjk" style="text-indent: 1.06cm; margin-bottom: 0cm; line-height: 100%; orphans: 0; widows: 0">
+<br/>
+
+</p>
+<p class="cjk" style="text-indent: 1.06cm; margin-bottom: 0cm; line-height: 100%; orphans: 0; widows: 0">
+“<font size="4" style="font-size: 15pt">互联网</font><font face="Liberation Serif, serif"><font size="4" style="font-size: 15pt"><span lang="en-US">+”</span></font></font><font size="4" style="font-size: 15pt">代表着现代农业发展的新方向、新趋势，也为转变农业发展方式提供了新路径、新方法。</font></p>
+<p class="cjk" style="text-indent: 1.06cm; margin-bottom: 0cm; line-height: 100%; orphans: 0; widows: 0">
+<br/>
+
+</p>
+<p class="cjk" style="text-indent: 1.06cm; margin-bottom: 0cm; line-height: 100%; orphans: 0; widows: 0">
+<font color="#00000a">“<font size="4" style="font-size: 15pt">互联网</font><font face="Liberation Serif, serif"><span lang="en-US"><font size="4" style="font-size: 15pt">+</font></span></font><font size="4" style="font-size: 15pt">农业”是一种生产方式、产业模式与经营手段的创新，通过便利化、实时化、物联化、智能化等手段，对农业的生产、经营、管理、服务等农业产业链环节产生了深远影响，为农业现代化发展提供了新动力。以“互联网</font><font face="Liberation Serif, serif"><span lang="en-US"><font size="4" style="font-size: 15pt">+</font></span></font><font size="4" style="font-size: 15pt">农业”为驱动，有助于发展智慧农业、精细农业、高效农业、绿色农业，提高农业质量效益和竞争力，实现由传统农业向现代农业转型。</font></font></p>
+<h2 class="cjk"><a name="_Toc511570776"></a>（三）整体架构</h2>
+<p class="cjk" style="margin-bottom: 0cm; line-height: 100%"><img src="%E5%A4%A7%E6%95%B0%E6%8D%AE%E4%B8%8B%E7%9A%84%E5%86%9C%E4%B8%9A%E8%AE%A2%E5%8D%95%E4%BF%A1%E6%81%AF%E7%B3%BB%E7%BB%9F_html_aed9cc6621d04b75.jpg" name="图片 1" align="bottom" vspace="1" width="643" height="398" border="0"/>
+</p>
+<h1 class="cjk"><a name="_Toc511570777"></a><font face="宋体">二、项目实施背景</font></h1>
+<h2 class="cjk"><a name="_Toc511570778"></a>（一）项目的国内现状</h2>
+<p class="cjk" style="text-indent: 1.06cm; margin-bottom: 0cm; line-height: 100%; orphans: 0; widows: 0">
+<font size="4" style="font-size: 15pt">传统农业：</font></p>
+<p class="cjk" style="text-indent: 1.06cm; margin-bottom: 0cm; line-height: 100%; orphans: 0; widows: 0">
+<font size="4" style="font-size: 15pt">一直存在信息落后、效率低下和损耗严重等问题。在西安一家农产品批发市场，看到一整车的大白菜正在滴水发臭，很多人都避而远之，询问老板得知：三天前拉来一车白菜很快卖完，所以又拉来一车，可是已经两天多都少有消费者问津。因为附近对白菜的需求量已达到上限；而其他对白菜有需求的商户又不能及时和货主取得联系让司机把货送到真正有急迫需求的商家手中。</font></p>
+<p class="cjk" style="text-indent: 1.06cm; margin-bottom: 0cm; line-height: 100%; orphans: 0; widows: 0">
+<font size="4" style="font-size: 15pt">订单农业：</font></p>
+<p class="cjk" style="text-indent: 1.06cm; margin-bottom: 0cm; line-height: 100%; orphans: 0; widows: 0">
+<font size="4" style="font-size: 15pt">是指农产品订购合同、协议，也叫合同农业或契约农业。签约的一方为企业或中介组织包括经纪人和运销户，另一方为农民或农民群体代表。订单农业具有市场性、契约性、预期性和风险性。订单中规定的农产品收购数量、质量和最低保护价，使双方享有相应的权利、义务和约束力，不能单方面毁约。因为订单是在农产品种养前签订，是一种期货贸易，所以也叫期货农业。农民说：“手中有订单，种养心不慌”。不过，订单履约有一段生产过程，双方都可能碰上市场、自然和人为因素等影响，也有一定的风险性。但比起计划经济和传统农业先生产后找市场的做法，订单农业则为先找市场后生产，可谓市场经济的产物，也是一种进步。</font></p>
+<p class="cjk" style="text-indent: 0.99cm; margin-bottom: 0cm; line-height: 100%; orphans: 0; widows: 0">
+<br/>
+
+</p>
+<h2 class="cjk"><a name="_Toc511570779"></a>（二）项目的发展趋势</h2>
+<p class="cjk" style="text-indent: 1.06cm; margin-bottom: 0cm; line-height: 100%; orphans: 0; widows: 0">
+<font size="4" style="font-size: 15pt">从传统农业到订单农业再到大数据下的订单农业，我们的农业订单系统一直在向着以下的特征前行：</font></p>
+<p class="cjk" style="text-indent: 1.06cm; margin-bottom: 0cm; line-height: 100%; orphans: 0; widows: 0">
+<font size="4" style="font-size: 15pt">第一，具备较高的综合生产率，包括较高的土地产出率和劳动生产率。农业成为一个有较高经济效益和市场竞争力的产业，这是衡量现代农业发展水平的最重要标志。</font></p>
+<p class="cjk" style="text-indent: 1.06cm; margin-bottom: 0cm; line-height: 100%; orphans: 0; widows: 0">
+<font size="4" style="font-size: 15pt">第二，农业成为可持续发展产业。农业发展本身是可持续的，而且具有良好的区域生态环境。广泛采用生态农业、有机农业、绿色农业等生产技术和生产模式，实现淡水、土地等农业资源的可持续利用，达到区域生态的良性循环，农业本身成为一个良好的可循环的生态系统。</font></p>
+<p class="cjk" style="text-indent: 1.06cm; margin-bottom: 0cm; line-height: 100%; orphans: 0; widows: 0">
+<font size="4" style="font-size: 15pt">第三，农业成为高度商业化的产业。农业主要为市场而生产，具有很高的商品率，通过市场机制来配置资源。商业化是以市场体系为基础的，现代农业要求建立非常完善的市场体系，包括农产品现代流通体系。离开了发达的市场体系，就不可能有真正的现代农业。农业现代化水平较高的国家，农产品商品率一般都在</font><font face="Liberation Serif, serif"><font size="4" style="font-size: 15pt"><span lang="en-US">90%</span></font></font><font size="4" style="font-size: 15pt">以上，有的产业商品率可达到</font><font face="Liberation Serif, serif"><font size="4" style="font-size: 15pt"><span lang="en-US">100%</span></font></font><font size="4" style="font-size: 15pt">。
+</font>
+</p>
+<p class="cjk" style="text-indent: 1.06cm; margin-bottom: 0cm; line-height: 100%; orphans: 0; widows: 0">
+<font size="4" style="font-size: 15pt">第四，实现农业生产物质条件的现代化。以比较完善的生产条件，基础设施和现代化的物质装备为基础，集约化、高效率地使用各种现代生产投入要素，包括水、电力、农膜、肥料、农药、良种、农业机械等物资投入和农业劳动力投入，从而达到提高农业生产率的目的。</font></p>
+<p class="cjk" style="text-indent: 1.06cm; margin-bottom: 0cm; line-height: 100%; orphans: 0; widows: 0">
+<font size="4" style="font-size: 15pt">第五，实现农业科学技术的现代化。广泛采用先进适用的农业科学技术、生物技术和生产模式，改善农产品的品质、降低生产成本，以适应市场对农产品需求优质化、多样化、标准化的发展趋势。现代农业的发展过程，
+实质上是先进科学技术在农业领域广泛应用的过程，是用现代科技改造传统农业的过程。
+</font>
+</p>
+<p class="cjk" style="text-indent: 1.06cm; margin-bottom: 0cm; line-height: 100%; orphans: 0; widows: 0">
+<font size="4" style="font-size: 15pt">第六，实现管理方式的现代化。广泛采用先进的经营方式，管理技术和管理手段，从农业生产的产前、产中、产后形成比较完整的紧密联系、有机衔接的产业链条，具有很高的组织化程度。有相对稳定，高效的农产品销售和加工转化渠道，有高效率的把分散的农民组织起来的组织体系，有高效率的现代农业管理体系。
+</font>
+</p>
+<p class="cjk" style="text-indent: 1.06cm; margin-bottom: 0cm; line-height: 100%; orphans: 0; widows: 0">
+<font size="4" style="font-size: 15pt">第七，实现农民素质的现代化。具有较高素质的农业经营管理人才和劳动力，是建设现代农业的前提条件，也是现代农业的突出特征。</font></p>
+<p class="cjk" style="text-indent: 1.06cm; margin-bottom: 0cm; line-height: 100%; orphans: 0; widows: 0">
+<font size="4" style="font-size: 15pt">第八，实现生产的规模化、专业化、区域化。通过实现农业生产经营的规模化、专业化、区域化，降低公共成本和外部成本，提高农业的效益和竞争力。</font></p>
+<p class="cjk" style="text-indent: 1.06cm; margin-bottom: 0cm; line-height: 100%; orphans: 0; widows: 0">
+<font size="4" style="font-size: 15pt">第九，建立与现代农业相适应的政府宏观调控机制。建立完善的农业支持保护体系，包括法律体系和政策体系。</font></p>
+<p class="cjk" style="text-indent: 0.99cm; margin-bottom: 0cm; line-height: 100%; orphans: 0; widows: 0">
+<br/>
+
+</p>
+<h2 class="cjk"><a name="_Toc511570780"></a>（三）项目运作的可行性</h2>
+<p class="cjk" style="margin-bottom: 0cm; line-height: 100%; orphans: 0; widows: 0">
+<font size="4" style="font-size: 15pt">项目运作主要分为三个阶段：</font></p>
+<p class="cjk" style="text-indent: 1.06cm; margin-bottom: 0cm; line-height: 100%; orphans: 0; widows: 0">
+<font size="4" style="font-size: 15pt">第一个是开发阶段，农业订单系统是一个基于</font><font face="Liberation Serif, serif"><font size="4" style="font-size: 15pt"><span lang="en-US">B/S</span></font></font><font size="4" style="font-size: 15pt">平台，由于现在网站开发技术的完善，项目的主要核心竞争力是在于服务和资源利用上的设置。并且使用了大数据的</font><font face="Liberation Serif, serif"><font size="4" style="font-size: 15pt"><span lang="en-US">API</span></font></font><font size="4" style="font-size: 15pt">，基于深度学习对数据进行分析，所以我们会建立一个可持续，有生命力，且稳定的信息平台。</font></p>
+<p class="cjk" style="text-indent: 1.06cm; margin-bottom: 0cm; line-height: 100%; orphans: 0; widows: 0">
+<font size="4" style="font-size: 15pt">第二个是运行阶段，由于现在互联网的各项技术发展都比较完善，所以网站、付费服务等都为我们的运行阶段提供了很好的发展保证。</font></p>
+<p class="cjk" style="text-indent: 1.06cm; margin-bottom: 0cm; line-height: 100%; orphans: 0; widows: 0">
+<font size="4" style="font-size: 15pt">第三个是推广阶段，一个好的完善的农业订单平台需要的是大量的浏览量以及更多的供求信息，我们将会在网站上进行一定的吸引用户的活动以及一些的互动手段来扩大用户群。这样既减少了资金量的使用，也较好的保证了用户浏览量以及客户的忠诚度。</font></p>
+<p class="cjk" style="text-indent: 1.06cm; margin-bottom: 0cm; line-height: 100%; orphans: 0; widows: 0">
+<font size="4" style="font-size: 15pt">第四个是运营阶段，首先，基于产品发展阶段，我们需要保证基础功能和服务的支持。随着产品的成长，基于功能逐步完善，拉新将成为主要任务。当产品进入成熟期后，用户维系至关重要，拉进来的新用户需要维持在平台内，上岸目标也要求我们展开精细化运营降低成本提高收入。当产品的拉新和留存都步入正轨，且产品本身已进入成熟期后，如支付宝、京东、滴滴这类在行业类里站稳市场独占鳌头的产品，除了基础运营以外，还需要加强产品的品牌建设，不仅仅满足于成为一款产品，而是通过品牌定位长期占据用户心智。</font></p>
+<p class="cjk" style="text-indent: 0.99cm; margin-bottom: 0cm; line-height: 100%; orphans: 0; widows: 0">
+<br/>
+
+</p>
+<h1 class="cjk"><a name="_Toc511570781"></a><font face="宋体">三、项目研究与实施的基础条件</font></h1>
+<h2 class="cjk"><a name="_Toc511570782"></a>（一）、人员条件</h2>
+<p class="cjk" style="margin-bottom: 0cm; line-height: 100%; orphans: 0; widows: 0">
+<font face="Liberation Serif, serif"><font size="4" style="font-size: 15pt"><span lang="en-US">1</span></font></font><font size="4" style="font-size: 15pt">、团队人员组成</font></p>
+<p class="cjk" style="text-indent: 1.06cm; margin-bottom: 0cm; line-height: 100%; orphans: 0; widows: 0">
+<font size="4" style="font-size: 15pt">在校大学生</font><font face="Liberation Serif, serif"><font size="4" style="font-size: 15pt"><span lang="en-US">5</span></font></font><font size="4" style="font-size: 15pt">名，指导老师</font><font face="Liberation Serif, serif"><font size="4" style="font-size: 15pt"><span lang="en-US">1</span></font></font><font size="4" style="font-size: 15pt">名</font></p>
+<p class="cjk" style="text-indent: 1.06cm; margin-bottom: 0cm; line-height: 100%; orphans: 0; widows: 0">
+<br/>
+
+</p>
+<p class="cjk" style="margin-bottom: 0cm; line-height: 100%; orphans: 0; widows: 0">
+<font face="Liberation Serif, serif"><font size="4" style="font-size: 15pt"><span lang="en-US">2</span></font></font><font size="4" style="font-size: 15pt">、工作需求</font></p>
+<p class="cjk" style="text-indent: 1.06cm; margin-bottom: 0cm; line-height: 100%; orphans: 0; widows: 0">
+<font face="Liberation Serif, serif"><font size="4" style="font-size: 15pt"><span lang="en-US">1</span></font></font><font size="4" style="font-size: 15pt">、建立农业订单平台：对于建立农业信息平台这个项目，我们团队有独特的人才优势，团队中有后台搭建，模型建立的</font><font face="Liberation Serif, serif"><font size="4" style="font-size: 15pt"><span lang="en-US">web</span></font></font><font size="4" style="font-size: 15pt">开发的极客，也有进行项目包装，界面优化，增加观赏性的设计人员，还有也有应对各种攻击的网络安全人员。有能力建立起一个美观而且交互性特别强的网络平台；</font></p>
+<p class="cjk" style="text-indent: 1.06cm; margin-bottom: 0cm; line-height: 100%; orphans: 0; widows: 0">
+<font face="Liberation Serif, serif"><font size="4" style="font-size: 15pt"><span lang="en-US">2</span></font></font><font size="4" style="font-size: 15pt">、数据分析及其可视化：对于数据分析这一方面，我们有敏锐的数据分析者，也有对于深度学习有着痴迷研究的人才；</font></p>
+<p class="cjk" style="text-indent: 1.06cm; margin-bottom: 0cm; line-height: 100%; orphans: 0; widows: 0">
+<font face="Liberation Serif, serif"><font size="4" style="font-size: 15pt"><span lang="en-US">3</span></font></font><font size="4" style="font-size: 15pt">、业务联系：我们团队有着不错的社会资源</font><font face="Liberation Serif, serif"><font size="4" style="font-size: 15pt"><span lang="en-US">--</span></font></font><font size="4" style="font-size: 15pt">农业科技示范户的联系方式，以及农业信息的一手资料。</font></p>
+<p class="cjk" style="text-indent: 1.06cm; margin-bottom: 0cm; line-height: 100%; orphans: 0; widows: 0">
+<br/>
+
+</p>
+<h2 class="cjk"><a name="_Toc511570783"></a>（二）、资金条件</h2>
+<p class="cjk" style="text-indent: 1.06cm; margin-bottom: 0cm; line-height: 100%; orphans: 0; widows: 0">
+<font face="Liberation Serif, serif"><font size="4" style="font-size: 15pt"><span lang="en-US">1</span></font></font><font size="4" style="font-size: 15pt">、通过初期的计划，得出资金的需求主要在以下三个方面：</font></p>
+<p class="cjk" style="text-indent: 1.06cm; margin-bottom: 0cm; line-height: 100%; orphans: 0; widows: 0">
+①<font size="4" style="font-size: 15pt">、云平台的租用</font></p>
+<p class="cjk" style="text-indent: 1.06cm; margin-bottom: 0cm; line-height: 100%; orphans: 0; widows: 0">
+②<font size="4" style="font-size: 15pt">、数据</font><font face="Liberation Serif, serif"><font size="4" style="font-size: 15pt"><span lang="en-US">API</span></font></font><font size="4" style="font-size: 15pt">的费用</font></p>
+<p class="cjk" style="text-indent: 1.06cm; margin-bottom: 0cm; line-height: 100%; orphans: 0; widows: 0">
+③<font size="4" style="font-size: 15pt">、网站域名等</font></p>
+<p class="cjk" style="text-indent: 1.06cm; margin-bottom: 0cm; line-height: 100%; orphans: 0; widows: 0">
+<font face="Liberation Serif, serif"><font size="4" style="font-size: 15pt"><span lang="en-US">2</span></font></font><font size="4" style="font-size: 15pt">、由于初期的规模有限，所需资金额度较小，易于实施。</font></p>
+<p class="cjk" style="text-indent: 1.06cm; margin-bottom: 0cm; line-height: 100%; orphans: 0; widows: 0">
+<br/>
+
+</p>
+<h2 class="cjk"><a name="_Toc511570784"></a>（三）、硬件需求</h2>
+<p class="cjk" style="text-indent: 1.06cm; margin-bottom: 0cm; line-height: 100%; orphans: 0; widows: 0">
+<font size="4" style="font-size: 15pt">项目采用云服务器以及云数据库，云服务器</font><font face="Liberation Serif, serif"><font size="4" style="font-size: 15pt"><span lang="en-US">ECS</span></font></font><font size="4" style="font-size: 15pt">是一种弹性可伸缩的计算服务，降低</font><font face="Liberation Serif, serif"><font size="4" style="font-size: 15pt"><span lang="en-US">IT</span></font></font><font size="4" style="font-size: 15pt">成本，提升运维效率。
+</font>
+</p>
+<h2 class="cjk"><a name="_Toc511570785"></a>（四）、总结</h2>
+<p class="cjk" style="text-indent: 1.06cm; margin-bottom: 0cm; line-height: 100%; orphans: 0; widows: 0">
+<font size="4" style="font-size: 15pt">对各项条件的分析后，总结得出，该项目资金需求较少，易于实施。利用网络平台进行交易，极大的提高了信息流通效率。后期再扩充微信、移动</font><font face="Liberation Serif, serif"><font size="4" style="font-size: 15pt"><span lang="en-US">App</span></font></font><font size="4" style="font-size: 15pt">等一体化的交易网络，同时可以将服务范围扩大到各个省内市，进而扩大到全国，形成一个体系庞大的、结构合理的、系统完善的、专注于农业订单网络平台。其前景广阔，若能认真经营，必能开拓一片新的市场。</font></p>
+<h1 class="cjk"><a name="_Toc511570786"></a><font face="宋体">四、项目优势（新颖性、先进性、独特性、竞争优势）</font></h1>
+<p class="cjk" style="text-indent: 1.06cm; margin-bottom: 0cm; line-height: 100%; orphans: 0; widows: 0">
+<font face="Liberation Serif, serif"><span lang="en-US"><font color="#00000a"><font size="4" style="font-size: 15pt">1</font></span></font><font size="4" style="font-size: 15pt">、组成人员自身优势：都是计算机专业的学生，具备扎实的专业知识和创新热情；</font></font></p>
+<p class="cjk" style="text-indent: 1.06cm; margin-bottom: 0cm; line-height: 100%; orphans: 0; widows: 0">
+<font face="Liberation Serif, serif"><font size="4" style="font-size: 15pt"><span lang="en-US">2</span></font></font><font size="4" style="font-size: 15pt">、成员具有很高的创业素质、创业激情与创业经验；</font></p>
+<p class="cjk" style="text-indent: 1.06cm; margin-bottom: 0cm; line-height: 100%; orphans: 0; widows: 0">
+<font face="Liberation Serif, serif"><font size="4" style="font-size: 15pt"><span lang="en-US">3</span></font></font><font size="4" style="font-size: 15pt">、组成人员都为在校大学生，开发成本低；</font></p>
+<p class="cjk" style="text-indent: 1.06cm; margin-bottom: 0cm; line-height: 100%; orphans: 0; widows: 0">
+<font face="Liberation Serif, serif"><font size="4" style="font-size: 15pt"><span lang="en-US">4</span></font></font><font size="4" style="font-size: 15pt">、通过前期实践调研，了解现行农业销售、农产品采购的模式弊端，注定有强烈的刚性需求；</font></p>
+<p class="cjk" style="text-indent: 1.06cm; margin-bottom: 0cm; line-height: 100%; orphans: 0; widows: 0">
+<font face="Liberation Serif, serif"><font size="4" style="font-size: 15pt"><span lang="en-US">5</span></font></font><font size="4" style="font-size: 15pt">、目标市场集中，市场需求迫切，用户群体广大；</font></p>
+<p class="cjk" style="text-indent: 1.06cm; margin-bottom: 0cm; line-height: 100%; orphans: 0; widows: 0">
+<font face="Liberation Serif, serif"><font size="4" style="font-size: 15pt"><span lang="en-US">6</span></font></font><font size="4" style="font-size: 15pt">、相比以往的农产品信息系统，更全面，更广泛，更具体，综合性更高，将农业生产者和农产品采购者联系起来，不再孤立，功能更强大；</font></p>
+<p class="cjk" style="text-indent: 1.06cm; margin-bottom: 0cm; line-height: 100%; orphans: 0; widows: 0">
+<font face="Liberation Serif, serif"><font size="4" style="font-size: 15pt"><span lang="en-US">7</span></font></font><font size="4" style="font-size: 15pt">、市场上还没有完备的类似的系统存在；</font></p>
+<p class="cjk" style="text-indent: 1.06cm; margin-bottom: 0cm; line-height: 100%; orphans: 0; widows: 0">
+<font face="Liberation Serif, serif"><font size="4" style="font-size: 15pt"><span lang="en-US">8</span></font></font><font size="4" style="font-size: 15pt">、符合创新型、科学性、不盲目的新农业生产趋势，具备很好的前瞻视野和先进性；</font></p>
+<p class="cjk" style="text-indent: 1.06cm; margin-bottom: 0cm; line-height: 100%; orphans: 0; widows: 0">
+<font face="Liberation Serif, serif"><font size="4" style="font-size: 15pt"><span lang="en-US">9</span></font></font><font size="4" style="font-size: 15pt">、国家及学校鼓励高校学生自主创业，并且有一定的优惠政策。</font></p>
+<p class="cjk" style="text-indent: 1.06cm; margin-bottom: 0cm; line-height: 100%; orphans: 0; widows: 0">
+<br/>
+
+</p>
+<h1 class="cjk"><a name="_Toc511570787"></a><font face="宋体">五、项目实施方案</font></h1>
+<h2 class="cjk"><a name="_Toc511570788"></a>（一）、产品定位</h2>
+<p class="cjk" style="text-indent: 1.06cm; margin-bottom: 0cm; line-height: 100%; orphans: 0; widows: 0">
+<font size="4" style="font-size: 15pt">根据我们的初步了解，我们主要的服务有以下三类：</font></p>
+<p class="cjk" style="margin-bottom: 0cm; line-height: 100%; orphans: 0; widows: 0">
+<font color="#00000a">①</font><font color="#00000a"><font size="4" style="font-size: 15pt">、提供供应批发信息</font></font></p>
+<p class="cjk" style="margin-bottom: 0cm; line-height: 100%; orphans: 0; widows: 0">
+<font color="#00000a">②</font><font color="#00000a"><font size="4" style="font-size: 15pt">、提供求购信息</font></font></p>
+<p class="cjk" style="margin-bottom: 0cm; line-height: 100%; orphans: 0; widows: 0">
+<font color="#00000a">③</font><font color="#00000a"><font size="4" style="font-size: 15pt">、大数据分析（行情，预测）</font></font></p>
+<p class="cjk" style="text-indent: 1.06cm; margin-bottom: 0cm; line-height: 100%; orphans: 0; widows: 0">
+<br/>
+
+</p>
+<h2 class="cjk"><a name="_Toc511570789"></a>（二）、服务对象</h2>
+<p class="cjk" style="text-indent: 1.06cm; margin-bottom: 0cm; line-height: 100%; orphans: 0; widows: 0">
+<font color="#00000a"><font size="4" style="font-size: 15pt">网站提供的服务范围和内容决定其目标用户主要是农户以及批发商家，农户大多希望产品可以以订单的方式生产，他们较多关心价格幅度和需求来那个。对于订单系用有较大的需求和支持度。先农村电脑以及网络覆盖率极高，上网更加方便。
+另外，批发商也是本网站的用户。在没有系统，信息堵塞的情况下，产品出售都成问题，同样有需求和支持度。</font></font></p>
+<p class="cjk" style="text-indent: 1.06cm; margin-bottom: 0cm; line-height: 100%; orphans: 0; widows: 0">
+<br/>
+
+</p>
+<h2 class="cjk"><a name="_Toc511570790"></a>（三）、服务细则 
+</h2>
+<p class="cjk" style="text-indent: 1.06cm; margin-bottom: 0cm; line-height: 100%; orphans: 0; widows: 0">
+<font face="Liberation Serif, serif"><font size="4" style="font-size: 15pt"><span lang="en-US">1</span></font></font><font size="4" style="font-size: 15pt">、本网站为农户提供交易的平台。农户、村镇或其他农产品生产组织可以将自己需要出售的商品上传到本网站上，本网站会按类别农产品进行分类整理，以便浏览和查询。</font></p>
+<p class="cjk" style="text-indent: 1.06cm; margin-bottom: 0cm; line-height: 100%; orphans: 0; widows: 0">
+<font face="Liberation Serif, serif"><font size="4" style="font-size: 15pt"><span lang="en-US">2</span></font></font><font size="4" style="font-size: 15pt">、本网站为农产品采购方提供信息交流和商品交易。农产品采购方可以将自己的需求上传到本网站上，本网站会按类别进行分类整理，以便浏览和查询。</font></p>
+<p class="cjk" style="text-indent: 1.06cm; margin-bottom: 0cm; line-height: 100%; orphans: 0; widows: 0">
+<font face="Liberation Serif, serif"><font size="4" style="font-size: 15pt"><span lang="en-US">3</span></font></font><font size="4" style="font-size: 15pt">、本网站对在线信息进行审核，以便确保信息的真实有效。</font></p>
+<p class="cjk" style="text-indent: 1.06cm; margin-bottom: 0cm; line-height: 100%; orphans: 0; widows: 0">
+<font face="Liberation Serif, serif"><font size="4" style="font-size: 15pt"><span lang="en-US">4</span></font></font><font size="4" style="font-size: 15pt">、将质量检测未合格的商品，督促卖家及时处理，并将不同的卖家以信用程度进行分级，从而保证产品的合格率和网站的信用，与此同时，批发商信用也分为不同的等级，信用程度高的批发商适当的可以跳过一些审核。</font></p>
+<p class="cjk" style="text-indent: 1.06cm; margin-bottom: 0cm; line-height: 100%; orphans: 0; widows: 0">
+<font face="Liberation Serif, serif"><font size="4" style="font-size: 15pt"><span lang="en-US">5</span></font></font><font size="4" style="font-size: 15pt">、可根据农户的具体需求提供就近寻找、联系采购方的服务，对采购方同样提供该需求。</font></p>
+<p class="cjk" style="text-indent: 1.06cm; margin-bottom: 0cm; line-height: 100%; orphans: 0; widows: 0">
+<font face="Liberation Serif, serif"><font size="4" style="font-size: 15pt"><span lang="en-US">6</span></font></font><font size="4" style="font-size: 15pt">、为买卖双方进行服务的同时，利用收集到的信息，进行数据分析，得出合理的科学的市场预测，并以图表，趋势图等形式显示，为双方提供参考。</font></p>
+<p class="cjk" style="text-indent: 1.06cm; margin-bottom: 0cm; line-height: 100%; orphans: 0; widows: 0">
+<font face="Liberation Serif, serif"><font size="4" style="font-size: 15pt"><span lang="en-US">7</span></font></font><font size="4" style="font-size: 15pt">、为本网站为新品种、新项目提供宣传和推广。</font></p>
+<p class="cjk" style="text-indent: 1.06cm; margin-bottom: 0cm; line-height: 100%; orphans: 0; widows: 0">
+<font face="Liberation Serif, serif"><font size="4" style="font-size: 15pt"><span lang="en-US">8</span></font></font><font size="4" style="font-size: 15pt">、统计滞销商品，并最大化，最优化进行销售宣传，挽回农户的损失。</font></p>
+<h2 class="cjk"><a name="_Toc511570791"></a>（四）、实现样例</h2>
+<p class="cjk" style="margin-bottom: 0cm; line-height: 100%"><img src="%E5%A4%A7%E6%95%B0%E6%8D%AE%E4%B8%8B%E7%9A%84%E5%86%9C%E4%B8%9A%E8%AE%A2%E5%8D%95%E4%BF%A1%E6%81%AF%E7%B3%BB%E7%BB%9F_html_aef20de2a9dc39ff.png" name="图片 4" align="bottom" width="643" height="643" border="0"/>
+</p>
+<h2 class="cjk"><a name="_Toc511570792"></a>（五）、营销提案 
+</h2>
+<p class="cjk" style="margin-bottom: 0cm; line-height: 100%; orphans: 0; widows: 0">
+<font face="Liberation Serif, serif"><font size="4" style="font-size: 15pt"><span lang="en-US">1</span></font></font><font size="4" style="font-size: 15pt">、营销计划
+</font>
+</p>
+<p class="cjk" style="text-indent: 1.06cm; margin-bottom: 0cm; line-height: 100%; orphans: 0; widows: 0">
+<font size="4" style="font-size: 15pt">通过线上线下渠道对网站进行宣传，形成品牌效应。优化网站关键字，在搜索引擎中获得靠前的排名位置。利用大数据以及信息预测提高产品竞争力。</font></p>
+<p class="cjk" style="text-indent: 1.06cm; margin-bottom: 0cm; line-height: 100%; orphans: 0; widows: 0">
+<br/>
+
+</p>
+<p class="cjk" style="margin-bottom: 0cm; line-height: 100%; orphans: 0; widows: 0">
+<font face="Liberation Serif, serif"><font size="4" style="font-size: 15pt"><span lang="en-US">2</span></font></font><font size="4" style="font-size: 15pt">、营销策略</font></p>
+<p class="cjk" style="text-indent: 1.06cm; margin-bottom: 0cm; line-height: 100%; orphans: 0; widows: 0">
+<font size="4" style="font-size: 15pt">通过对供求信息的采集以及精准投放，使农户与团体以及企业之间有了一个良好的信息交流平台。
+</font>
+</p>
+<p class="cjk" style="text-indent: 1.06cm; margin-bottom: 0cm; line-height: 100%; orphans: 0; widows: 0">
+<font size="4" style="font-size: 15pt">逐步增加系统提供服务的广度与深度。为广大用户提供便捷可靠的服务同时，提高自身信誉与品牌形象。</font></p>
+<p class="cjk" style="text-indent: 1.06cm; margin-bottom: 0cm; line-height: 100%; orphans: 0; widows: 0">
+<font size="4" style="font-size: 15pt">及时收集用户对网站的意见和建议，并及时回复和重视采纳。</font></p>
+<p class="cjk" style="text-indent: 1.06cm; margin-bottom: 0cm; line-height: 100%; orphans: 0; widows: 0">
+<br/>
+
+</p>
+<p class="cjk" style="margin-bottom: 0cm; line-height: 100%; orphans: 0; widows: 0">
+<font face="Liberation Serif, serif"><font size="4" style="font-size: 15pt"><span lang="en-US">3</span></font></font><font size="4" style="font-size: 15pt">、营销推广</font></p>
+<p class="cjk" style="text-indent: 1.06cm; margin-bottom: 0cm; line-height: 100%; orphans: 0; widows: 0">
+<font size="4" style="font-size: 15pt">（</font><font face="Liberation Serif, serif"><font size="4" style="font-size: 15pt"><span lang="en-US">1</span></font></font><font size="4" style="font-size: 15pt">）人员推销：营销人员用自己的销售技巧与农户和商家进行沟通，使他们了解到发展线上渠道的重要性，并与用户建立信赖的关系</font></p>
+<p class="cjk" style="text-indent: 1.06cm; margin-bottom: 0cm; line-height: 100%; orphans: 0; widows: 0">
+<font size="4" style="font-size: 15pt">（</font><font face="Liberation Serif, serif"><font size="4" style="font-size: 15pt"><span lang="en-US">2</span></font></font><font size="4" style="font-size: 15pt">）公共关系：可以利用各种团体组织向广大农户与相关企业们进行宣传，利用一些优惠策略吸引他们</font></p>
+<p class="cjk" style="text-indent: 1.06cm; margin-bottom: 0cm; line-height: 100%; orphans: 0; widows: 0">
+<font size="4" style="font-size: 15pt">（</font><font face="Liberation Serif, serif"><font size="4" style="font-size: 15pt"><span lang="en-US">3</span></font></font><font size="4" style="font-size: 15pt">）搜索引擎推广，通过搜索引擎竞价排名可以使我们网站的流量在短期内快速增加，从而使我们的业务得以迅速扩展，在互联网上建立起良好的品牌效应。</font></p>
+<p class="cjk" style="text-indent: 1.06cm; margin-bottom: 0cm; line-height: 100%; orphans: 0; widows: 0">
+<font size="4" style="font-size: 15pt">（</font><font face="Liberation Serif, serif"><font size="4" style="font-size: 15pt"><span lang="en-US">4</span></font></font><font size="4" style="font-size: 15pt">）网站之间的资源合作也是互相推广的一种重要方法，其中最简单的合作方式为交换链接。网站其他合作还有内容共享、资源互换、互为推荐等，尽管形式和操作方法各不相同，但是基本思路是一样的，即在自己拥有一定营销资源的情况下通过合作达到共同发展的目的。</font></p>
+<p class="cjk" style="text-indent: 1.06cm; margin-bottom: 0cm; line-height: 100%; orphans: 0; widows: 0">
+<br/>
+
+</p>
+</body>
+</html>
